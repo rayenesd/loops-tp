@@ -1,12 +1,20 @@
 # loops TP
 # Exercise 1
-# for i in range(1,51):
-#     if i :
-#         print("")
-
+# for loop
+number = int()
+for number in range(1,51):
+    if number % 3 ==0 and number % 5 == 0 :
+        print("FizzBuzz")
+    elif number % 3 ==0 :
+        print("Fizz")
+    elif number % 5 ==0 :
+        print("Buzz")
+    else:
+        print(number)
 
 
 # Exercise 2
+# while loop
 secret_number = 4
 guess = None
 while guess != secret_number:
